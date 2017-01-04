@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{55972B14-A862-4721-A892-8A2F3492426C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>scene_mgr</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\props\Locations.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\props\Locations.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(DebugOutputLocation)\</OutDir>
+    <IntDir>$(AncillaryLocation)\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ReleaseOutputLocation)\</OutDir>
+    <IntDir>$(AncillaryLocation)\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..;..\include;..\fvw;$(DalSdkLocation);$(TlbOutputLocation);$(FvCoreLocation);$(FvCoreLocation)\Common;$(FvCoreLocation)\CommonCtrls;$(FvCoreLocation)\geo_tool;$(FvCoreLocation)\geo3;$(FvCoreLocation)\FvGraphics\Include;$(FvCoreLocation)\FvMappingGraphics\Include;$(FvComponentsLocation);$(GTestLocation)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..;..\include;..\fvw;$(DalSdkLocation);$(TlbOutputLocation);$(FvCoreLocation);$(FvCoreLocation)\Common;$(FvCoreLocation)\CommonCtrls;$(FvCoreLocation)\geo_tool;$(FvCoreLocation)\geo3;$(FvCoreLocation)\FvGraphics\Include;$(FvCoreLocation)\FvMappingGraphics\Include;$(FvComponentsLocation);$(GTestLocation)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CDBHandler.h" />
+    <ClInclude Include="SceneFinder.h" />
+    <ClInclude Include="SceneHandler.h" />
+    <ClInclude Include="SceneIconItem.h" />
+    <ClInclude Include="scene_cov_ovl.h" />
+    <ClInclude Include="scene_mgr.h" />
+    <ClInclude Include="SDSCopyAndDeleteScenesThread.h" />
+    <ClInclude Include="SDSGenCovDlg.h" />
+    <ClInclude Include="SDSGenCovStatusCallback.h" />
+    <ClInclude Include="SDSUtil.h" />
+    <ClInclude Include="SDSGenCovProgress.h" />
+    <ClInclude Include="SDSGenCovThread.h" />
+    <ClInclude Include="SDSWaitDlg.h" />
+    <ClInclude Include="SDSWrapper.h" />
+    <ClInclude Include="SMAmbiguousDlg.h" />
+    <ClInclude Include="SMBrowsePage.h" />
+    <ClInclude Include="SMBrowsePathsDlg.h" />
+    <ClInclude Include="SMCommandMessageHandler.h" />
+    <ClInclude Include="SMLCTRL.H" />
+    <ClInclude Include="SMManagePage.h" />
+    <ClInclude Include="SMOperations.h" />
+    <ClInclude Include="SMPathsPage.h" />
+    <ClInclude Include="SMSearchPage.h" />
+    <ClInclude Include="SMSheet.h" />
+    <ClInclude Include="SMTarget.h" />
+    <ClInclude Include="sm_factory.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TTVSHandler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CDBHandler.cpp" />
+    <ClCompile Include="SceneFinder.cpp" />
+    <ClCompile Include="SceneHandler.cpp" />
+    <ClCompile Include="SceneIconItem.cpp" />
+    <ClCompile Include="scene_cov_ovl.cpp" />
+    <ClCompile Include="scene_mgr.cpp" />
+    <ClCompile Include="SDSCopyAndDeleteScenesThread.cpp" />
+    <ClCompile Include="SDSGenCovDlg.cpp" />
+    <ClCompile Include="SDSGenCovStatusCallback.cpp" />
+    <ClCompile Include="SDSUtil.cpp" />
+    <ClCompile Include="SDSGenCovProgress.cpp" />
+    <ClCompile Include="SDSGenCovThread.cpp" />
+    <ClCompile Include="SDSWaitDlg.cpp" />
+    <ClCompile Include="SMAmbiguousDlg.cpp" />
+    <ClCompile Include="SMCommandMessageHandler.cpp" />
+    <ClCompile Include="SMOperations.cpp" />
+    <ClCompile Include="SMTarget.cpp" />
+    <ClCompile Include="SDSWrapper.cpp" />
+    <ClCompile Include="SMBrowsePage.cpp" />
+    <ClCompile Include="SMBrowsePathsDlg.cpp" />
+    <ClCompile Include="SMLCTRL.CPP" />
+    <ClCompile Include="SMManagePage.cpp" />
+    <ClCompile Include="SMPathsPage.cpp" />
+    <ClCompile Include="SMSearchPage.cpp" />
+    <ClCompile Include="SMSheet.cpp" />
+    <ClCompile Include="sm_factory.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TTVSHandler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\fvw_core\CustomInterfaces\CustomInterfaces.vcxproj">
+      <Project>{6b1ab2ff-6e4a-4001-87af-c0451f1baeb4}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\fvw_core\FvCore\FvCore.vcxproj">
+      <Project>{ec782835-cede-417f-8bbc-ac03267a6a22}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\fvw_core\MdsUtilities\MdsUtilities.vcxproj">
+      <Project>{e882b316-bf5f-449d-aadc-40dacdf306ff}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\UIControls\FvToolbarServer\FvToolbarServer.vcxproj">
+      <Project>{ee5548e8-d8dc-4c5e-bba4-1cffd1c33141}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="\Working Folder\FalconView - SVN\trunk\public\Applications\FalconView\fvw.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

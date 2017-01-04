@@ -1,0 +1,2134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ad795f4c-6ac1-4beb-993e-f3d9422f8654}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Interface Implementations">
+      <UniqueIdentifier>{a26ad6e9-30f4-4ecd-985d-e98d51bb1e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c77d41b0-535f-4680-b609-08d43d0724e1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d33143e4-f333-42a5-8ece-2c2da26ab7a7}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{8010c0bd-7322-481a-91e8-acdd24f0c44f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RES\50FILL.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\add.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\add2.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\add_prin.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ADDPOINT.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ADDPTHOT.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ar_tb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\aranchor.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\aredittb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arnav.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arnavlin.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arpoint.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arrowLeft.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arrowRight.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\artrack.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\axis.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BlurLeft.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BlurRight.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BlurTop.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00004.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00005.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00006.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00007.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BottomBlur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\BULB_GRE.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\BULB_OFF.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\BULB_RED.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\BULB_YEL.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bullplac.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bullseye.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\C130TB.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\check_ma.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\CHECKBOX.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\checking.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\checkpoi.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\chum_edi.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\CHUMTB.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\closed_h.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\connecte.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\copy_del.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\coverage.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\CROSMOVE.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\CROSS.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cross_ou.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cur00001.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cur00002.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cur00003.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cur00004.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cur00005.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cur00006.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor4.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor5.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\customtlb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\default_.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\delpoint.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\disconne.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\DIVERTPT.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\dotrect.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\dotrect2.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\down.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\dp_graph.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\DRIVES.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\editorTB.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\export_t.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\exprted.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fav.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\finger.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\folder.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\follow.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\freehand.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\FVW.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\FVW.RC2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GetMouseClick.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\globe.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_class.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_conta.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_coord.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_dange.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_decis.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_down_.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_layup.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_linku.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_objec.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_passa.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_point.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_relea.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_senso.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_start.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gm_targe.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gps_edit.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gps_tb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\hand.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\hand0.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\hidden_t.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon3.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ICON_CUR.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\idle.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\infantry.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\INFO.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\IP.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\jukebox.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\KEY_CURS.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\LINE.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\link.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\litebulb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\LOCALADD.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\localpnt.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\LOCPT_TB.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\magnify.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\magnify_.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\manage_fav.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mask.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mcat1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mcat2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mcatsel1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mcatsel2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdm_ctrl.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdm_dbad.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdm_dbde.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdm_dbfi.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdm_dbla.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdm_dbne.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdm_dbpr.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdm_mvdn.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdm_mvup.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdm_srct.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdm_tool.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdmprg0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdmprg1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdmprg2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mdmsquar.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MdsServer.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mmask1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mmask2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\MnFrmTB.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\MOVE.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\move2.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\MOVE4WAY.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\movsym_e.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\movsymtb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\msrc1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\msrc2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\msrcsel1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\msrcsel2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mtgt1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mtgt2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mtgtsel1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mtgtsel2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mulcpy.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mulcpye.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\muldel.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\muldele.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mulsng.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mulsnge.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nitf_edi.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nitf_too.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\NODROP.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\OAP.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ORBITPT.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\OVAL_CUR.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\overlay.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ovl_add.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ovl_bot.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ovl_dn.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ovl_new.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ovl_rmv.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ovl_top.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ovl_up.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ovlkit_e.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\OVLKTBAR.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\OVLTEXT.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\patmdgrn.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pb_endse.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pb_play.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pb_reset.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pb_stop.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pgonadd.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\picture.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\playback.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\plineadd.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\POLYGON.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\POLYLINE.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\print_ed.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\prnt_lan.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\prnt_por.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\prnttool.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pwr_blue.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pwr_red.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\range_be.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rect.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\right.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rings.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ROTATE.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\route_ed.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\route_to.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\SARROWS.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\search.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\searchtb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\selcpy.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\selcpye.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\seldel.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\seldele.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\SELECT.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\selsng.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\selsnge.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\serpent.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\serpentp.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\SHADE1.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\SHADE2.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\SHADE3.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\SHADE4.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\SHADE5.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\SHADE6.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shandbit.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shblack.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shblue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shcream.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Shcyan.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shdkblue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shdkcyan.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Shdkgray.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shdkgren.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shdkmgnt.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shdkred.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shdkyelo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shgreen.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shltgray.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SHMAGNTA.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shmedgra.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shmogren.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\SHOWRMK.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shred.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shskyblu.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shwhite.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shyellow.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\STTO.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\SYMBOL.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tabedito.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tabeditor.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\table.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\TARGET.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tg_box_s.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tg_edit.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tg_place.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tg_tb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\TH_BAR.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\TH_DRAG.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\TH_SEL.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\threat.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\threat_aq.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\threat_e.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\threat_t.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\TURNPNT.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\UNKNOWN.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\user_ar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\VIP.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\VRP.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\waypoint.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FVW_main_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FVW_main_small.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FVW_main.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ARTOOL_small.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ARTool_Large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonToolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\green_check.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\grid.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\red_x.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\yellow_question.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\qmark.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\model_tb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SMFindfile.avi">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cloud.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sm_toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sdm_browse_small.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Analysis.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IFavorite.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IFavoriteTabs.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IGPS.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="ILayer.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="ILayer2.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="ILayer3.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="ILayer4.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="ILayer5.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IMap.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IMap2.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IMap3.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IMapDataManager.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IOverlayElement.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IOverlayElementEnumerator.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IPlaybackDialog.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IPtExprt.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="ISkyViewOverlay.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="ITargetGraphics.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IUserSimulator.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="services.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="TacticalGraphicsServer.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="TacticalGraphicsServer2.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="IDialogNotify.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fvw\AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowseFolderDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="browseforfolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCurrencyDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="colorCB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="commandline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContextMenuItems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTIA_Ruler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMapGroups.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomTB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataChk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dted_tmr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectiveScaleDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExifImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpirationDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="favorite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fovllist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fulldrag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FvFrameWndImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FvMapViewImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FvStatusBarManagerImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FvToolMenuItemCOM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FvVerticalViewImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fvw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geocx1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geocx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getobjpr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GoToPropSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoZip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerOvl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lstyleCB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lwidthCB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainfrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map_serv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mapdoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGoToPropPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MAPIWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapOptionsDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mapview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapViewTabsCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionPackageDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseClickResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiFileDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multisel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMapGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nt_warn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="optdis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="optpri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="optsec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="optsheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Overflow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OvlToolConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ovlview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhotoGeotaggingToolsDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prnt_dlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pviewex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="refresh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scradjst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="securdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetProjectionDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeGoToPropPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeGoToPropPageDisabled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sopendlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="startdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatBarBullseyePropPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBarInfoPane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBarSetupDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SupplementalDataHandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TBClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TipDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tiptimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="topicnam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tstcloseovlfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tstmapmv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tstmapsc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tstmapzm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TstMDPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TstMvZPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tstopenovlfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TstOvlPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tstovtog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tstsheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VerticalViewDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VerticalViewProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VerticalViewPropertiesDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view_prt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VVODCurrencyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nitf\WARP_QueryDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSpec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FvDockablePane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ITargetGraphics2.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="SlatToolLauncher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemHealthRibbonButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomToolbarMgrEventSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientToolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBarManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapRenderingEngineTileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevationDataTileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapRenderingOnTiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayTileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OsgEarthMapEngineCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeospatialScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeospatialViewController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeospatialView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeospatialEarthManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeospatialViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx_debug_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapRenderingOnTiles_UnitTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoInputDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIThreadOperation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ElementRenderingDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOverlayListComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IAddToFavorites.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="FullScreenDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingGoToPropPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IUserSimulatorSetup.cpp">
+      <Filter>Interface Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="MapParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoomPercentComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoomPercentages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapViewGestures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEngineCOM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEngineOSG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapParams_UnitTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoomPercentagesUnitTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FvSystemHealthCOM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayEventRouter_UnitTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FvCustomDropTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapViewTabPrefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericNodeCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecurityLabelExtensionCOM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayElementsImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayElementProviderFactoryCOM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayElementProviderCOM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayElementRootNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkItemsImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="localpnt\Localpnt_UnitTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ReaderWriterGdiplus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGVariables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayElements_UnitTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GdalInitializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GdalInitializer_UnitTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraModeOptionsDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HudOptionsPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HudProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewshedNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TstMapProjPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tstmapproj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrapedOverlayImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadDrapedOverlayImageOperation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrapedOverlayTileNodeVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedTransitionCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Analysis.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="factory.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="IFavorite.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="IFavoriteTabs.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="IGPS.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="ILayer.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="ILayer2.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="ILayer3.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="ILayer4.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="ILayer5.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="IMap.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="IMap2.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="IMap3.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="IMapDataManager.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="IOverlayElement.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="IOverlayElementEnumerator.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlaybackDialog.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="IPtExprt.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="ISkyViewOverlay.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="ITargetGraphics.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="IUserSimulator.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="services.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="TacticalGraphicsServer.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="TacticalGraphicsServer2.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="fvw\AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INCLUDE\ado.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\appinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fvw\appname.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowseFolderDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\catalog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCurrencyDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\chstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colorCB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\colordlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="commandline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextMenuItems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTIA_Ruler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMapGroups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomTB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataChk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dlgutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dted_tmr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectiveScaleDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\errx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExifImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpirationDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="favorite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fovllist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fulldrag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FvFrameWndImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FvMapViewImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FvStatusBarManagerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FvThreat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FvToolMenuItemCOM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FvVerticalViewImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fvw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fvwutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GenericProjector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\geocx1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\geocx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="getobjpr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GoToPropSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\grid_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\icallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\icon_dib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IconDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDialogNotify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IndexFil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoZip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerOvl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lstyleCB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lwidthCB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mainfrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map_serv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mapdoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGoToPropPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MAPIWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapOptionsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\maps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapViewTabsCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="catalog\MDMLibPropPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionPackageDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseClickResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiFileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multisel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMapGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nma_dted.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nt_warn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OleDbSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="optdis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="optpri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="optsec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="optsheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Overflow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\overlay_pp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OvlToolConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\param.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhotoGeotaggingToolsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PolyLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prnt_dlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PrntTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pviewex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\records.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\refresh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scradjst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="securdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetProjectionDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeGoToPropPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeGoToPropPageDisabled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\showrmk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SnapTo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sopendlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="splash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="startdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="statbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatBarBullseyePropPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBarInfoPane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBarSetupDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SupplementalDataHandlers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemHealthDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TBClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testglob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TipDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiptimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="topicnam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tstcloseovlfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tstmapmv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tstmapsc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tstmapzm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TstMDPP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TstMvZPP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tstopenovlfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TstOvlPP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tstovtog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tstsheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VerticalViewDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VerticalViewProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VerticalViewPropertiesDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VVODCurrencyDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nitf\WARP_QueryDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wm_user.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSpec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCallback.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="CCallback2.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlaybackDialogCallback.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="FvDockablePane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ITargetGraphics2.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="SlatToolLauncher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemHealthRibbonButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomToolbarMgrEventSink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientToolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBarManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapOptionsEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapRenderingEngineTileSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ElevationDataTileSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapRenderingOnTiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayTileSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OsgEarthMapEngineCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeospatialScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeospatialViewController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeospatialView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericNodeCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeospatialEarthManipulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeospatialViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewpoint3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx_debug_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoInputDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayInvalidatedListener_Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIThreadOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthManipulatorEvents_Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementRenderingDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOverlayListComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IAddToFavorites.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="FullScreenDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingGoToPropPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IUserSimulatorSetup.h">
+      <Filter>Interface Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="MapRenderingEngine_Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDisplayParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapParamsListener_Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoomPercentComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoomPercentages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEngineCOM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEngineOSG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FvSystemHealthCOM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FvCustomDropTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapViewTabPrefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityLabelExtensionCOM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayElementsImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayElementProviderFactory_Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayElementProviderFactoryCOM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayElementProvider_Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayElementProviderCOM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayElementRootNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkItemsImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReaderWriterGdiplus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GdalInitializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraModes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraModeOptionsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HudOptionsPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HudProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewshedNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TstMapProjPP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrapedOverlayImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadDrapedOverlayImageOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrapedOverlayImageNodeVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedTransitionCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FvMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fvw\AboutDlg.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="fvw.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{11dba3ad-37b4-43d0-bdd5-af33ce03d9b9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1a9b8c7b-5e1e-4f72-a43c-3acc19b82a5e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="New Cell Source">
+      <UniqueIdentifier>{6922d588-7b3a-43ae-9f96-b3d1972efc66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="New Cell Headers">
+      <UniqueIdentifier>{420ed969-3eff-4e22-b045-20e01129616c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Import Dialogs">
+      <UniqueIdentifier>{13fc0876-acd4-45fc-ab77-2ae371ac5d34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataExportDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FavoriteImportDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FVGridCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FVTabCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HideShowColumnsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiLocationEditDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabularEditorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetGraphicsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TGSummary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCellColor.cpp">
+      <Filter>New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCellFill.cpp">
+      <Filter>New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCellFVFont.cpp">
+      <Filter>New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCellIcon.cpp">
+      <Filter>New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCellStyle.cpp">
+      <Filter>New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCellWidth.cpp">
+      <Filter>New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Import_Step3.cpp">
+      <Filter>Import Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Import_Step4.cpp">
+      <Filter>Import Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportInfoDlg.cpp">
+      <Filter>Import Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportPropSheet.cpp">
+      <Filter>Import Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviewEdit.cpp">
+      <Filter>Import Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectTableDlg.cpp">
+      <Filter>Import Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="TextImport_Step1.cpp">
+      <Filter>Import Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="TextImport_Step2A.cpp">
+      <Filter>Import Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="TextImport_Step2B.cpp">
+      <Filter>Import Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetGraphics2Dlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetGraphicsDlgBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataExportDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcelParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FavoriteImportDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FVGridCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FVTabCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hideshowcolumnsdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiLocationEditDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TabularEditorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetGraphicsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TGSummary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCellColor.h">
+      <Filter>New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCellFill.h">
+      <Filter>New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCellFVFont.h">
+      <Filter>New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCellIcon.h">
+      <Filter>New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCellStyle.h">
+      <Filter>New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCellWidth.h">
+      <Filter>New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Import_Step3.h">
+      <Filter>Import Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Import_Step4.h">
+      <Filter>Import Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportInfoDlg.h">
+      <Filter>Import Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportPropSheet.h">
+      <Filter>Import Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviewEdit.h">
+      <Filter>Import Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectTableDlg.h">
+      <Filter>Import Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="TextImport_Step1.h">
+      <Filter>Import Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="TextImport_Step2A.h">
+      <Filter>Import Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="TextImport_Step2B.h">
+      <Filter>Import Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetGraphics2Dlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetGraphicsDlgBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

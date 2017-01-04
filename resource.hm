@@ -1,0 +1,5 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by fvw.rc
+//
+#define HIDC_CHK_TOP_DOWN               0x84ab12c6    // IDD_DRAW_PROP_GRID_DLG
+#define HIDC_FILE_ZOOM                  0x86ab1077    // IDD_DRAW_PROP_PICTURE_DLG

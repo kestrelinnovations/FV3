@@ -1,0 +1,115 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "AboutDlgResource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "version.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  34, 22, 288, 355
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About FalconView®"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            1351,IDC_STATIC,11,7,20,20
+    LTEXT           "FalconView Version Information Block (to be replaced at runtime)",
+                    IDC_FalconView_Version_Block,39,6,199,27
+    DEFPUSHBUTTON   "OK",IDOK,246,7,32,14,WS_GROUP
+    LTEXT           "FalconView Web Site:",IDC_STATIC,10,330,118,
+                    8
+    LTEXT           "http://www.falconview.org",IDC_FV_WEB_SITE,149,330,85,8
+    CONTROL         "",IDC_ABOUTBOX1,"{7268400B-B9C5-4207-84EE-778D72B62355}",
+                    WS_TABSTOP,5,30,278,300
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ABOUTBOX DLGINIT
+BEGIN
+    IDC_ABOUTBOX1, 0x376, 24, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x2b19, 0x0000, 0x29a7, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000,
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME_FALCONVIEW "FalconView\nMap\nMAP Document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "FalconView"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

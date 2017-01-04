@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ttvs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model_obj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TacModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TacModel_pp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cdb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tm_shp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unzip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model_util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cdb_tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelDisplayElementProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRegionListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cdb_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledElevationDataset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cdb.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="factory.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model_obj.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TacModel.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TacModel_pp.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttvs.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tm_shp.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unzip.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model_util.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cdb_tile.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelDisplayElementProvider.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRegionListener.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cdb_data.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledElevationDataset.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatasetType.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{1d8e0279-d7a1-46bf-a50d-5e0e3a8091e4}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{632d63e5-ac48-4854-b76a-ff15f05ccd15}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+  </ItemGroup>
+</Project>
